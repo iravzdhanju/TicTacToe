@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Google+Sans:500,700"
+      rel="stylesheet"
+    />
+    <title>Tik Tac Toe</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body onload="changeBackground();">
+    <header>
+      <nav id="top">
+        <div class="topbar">
+          <a href="./index.html">
+            <p class="logo">
+              <img src="./img/logos.png" class="logoimg" /> Tik Tac Toe
+            </p>
+          </a>
+        </div>
+      </nav>
+      <ul class="link-list">
+        <a href="https://github.com/iravzdhanju">
+          <li>New-Releases</li>
+        </a>
+        <a href="https://iravzdhanju.github.io/MyPortfolio/">
+          <li>About</li>
+        </a>
+        <a href="https://github.com/iravzdhanju">
+          <li>Github</li>
+        </a>
+      </ul>
+    </header>
+
+    <div class="board" id="board">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+      <div data-winning-message-text></div>
+      <button id="restartButton">Restart</button>
+    </div>
+    <footer id="footer">
+      <p class="footerLogo" id="footerLogo">Copyright © Ravi Dhanju 2020</p>
+    </footer>
+    <script src="./js/script.min.js"></script>
+  </body>
+</html>
